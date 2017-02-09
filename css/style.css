@@ -6,6 +6,10 @@
     -moz-column-count: 4;
 }
 
+.img-minimum {
+	max-height: 250px;
+}
+
 .item { /* Masonry bricks or child elements */
     background-color: #F00;
     display: inline-block;
