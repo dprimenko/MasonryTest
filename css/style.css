@@ -1,0 +1,17 @@
+.masonry { /* Masonry container */
+    column-count: 4;
+    column-gap: 1.5em;
+    -moz-column-gap: 1.5em;
+    -webkit-column-gap: 1.5em;
+    -moz-column-count: 4;
+}
+
+.item { /* Masonry bricks or child elements */
+    background-color: #F00;
+    display: inline-block;
+    margin: 0 0 1em;
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box
+}
